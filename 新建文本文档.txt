@@ -1,0 +1,7 @@
+git config --global user.name xxx           #方便产品经理找(怼)你
+git config --global user.email yyy          #方便产品经理找(怼)你
+git config --global push.default simple     #本来我写的是matching，不过想了想可能simple更好
+git config --global core.quotepath false    #防止文件名变成数字
+git config --global core.editor "vim"       #使用vim编辑提交信息
+
+ssh-keygen -t rsa -b 4096 -C "fon1173@163.com"
